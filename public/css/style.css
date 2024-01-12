@@ -1,0 +1,332 @@
+.nav-item a {
+  border-radius: 5px;
+  transform: background-color .2s;
+  color: #664d03;
+}
+
+.nav-item a:hover {
+  background-color: #fff3cd;
+}
+
+.navul {
+  width: 100%;
+  justify-content: end;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.featurette-heading {
+  letter-spacing: -.05rem;
+  text-shadow: 1px 1px 1px black, 0 0 25px var(--body-bg-color-dourado), 0 0 5px #FFDE59;
+  margin: 20px;
+  color: #664d03;
+}
+.featurette-divider {
+  width: 50%;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+  text-shadow: 1px 1px 1px black, 0 0 25px var(--body-bg-color-dourado), 0 0 5px #FFDE59;
+  margin: 20px;
+  color: #664d03;
+}
+
+.btn-header-whats:hover,
+.btn-blog:hover {
+  box-shadow: 1px 2px 10px #88888860, 1px 2px 5px #88888860;
+}
+
+/* icons */
+
+.bi-instagram:hover {
+  color: #bf3bc4;
+}
+
+.bi-whatsapp:hover {
+  color: #25d366;
+}
+
+.bi-house-fill:hover {
+  color: #C69016;
+}
+
+.bi-youtube:hover {
+  color: red;
+}
+
+.bi-facebook:hover {
+  color: blue;
+}
+
+/* depoimentos */
+.glider-contain {
+
+  position: relative;
+  margin-bottom: 30px;
+  width: 90%;
+  min-height: 400px;
+}
+
+.glider {
+  position: relative;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  transform: translateZ(0);
+  width: 100%;
+  height: 90%;
+}
+
+.foto {
+  margin: 5px;
+  position: relative;
+  box-shadow: 1px 2px 10px #88888834, 1px 2px 5px #88888834;
+}
+
+.image {
+  object-fit: contain;
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  color: #C69016;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 8px 8px;
+  width: 100%;
+  height: 100%;
+
+}
+
+.foto:hover .image {
+  opacity: 0.1;
+}
+
+.foto:hover .middle {
+  opacity: 1;
+}
+
+.card-body {
+  flex: none;
+}
+
+
+
+/* sessao conhecimentos */
+.card-blog-container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.emocional {
+  background-image: url(../assets/conhecimentos/emocional.jpg);
+}
+
+.massoterapia {
+  background-image: url(../assets/conhecimentos/massoterapia.jpg);
+}
+
+.leitura {
+  background-image: url(../assets/conhecimentos/leitura-facial.jpg);
+}
+
+.card-blog {
+  width: 100%;
+  height: 100%;
+}
+
+.card-blog .front-content {
+  width: 100%;
+  height: 100%;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+}
+
+.card-blog .front-content p {
+  font-size: 35px;
+  font-weight: 700;
+  opacity: 1;
+  background: #ffde59;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+}
+
+.card-blog .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(-45deg, #FFDE59 0%, #664d03 50%, #353434 100%);
+  color: #e8e8e8;
+  line-height: 1.5;
+  border-radius: 5px;
+  pointer-events: none;
+  transform: translateY(-96%);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card-blog:hover .content {
+  transform: translateY(0);
+}
+
+.card-blog:hover .front-content {
+  transform: translateY(30%);
+}
+
+.card-blog:hover .front-content p {
+  opacity: 0;
+}
+
+/* blog */
+.blog-principal {
+  background-image: url(../assets/blog-img/artigo0.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+/* imagens dos topicos do blog  */
+.img-artigo-blog {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* footer */
+.footer-index {
+  border-top: 1px solid rgba(0, 0, 0, 0.164);
+  box-shadow: 5px 10px 8px 10px #888888;
+  margin-top: 15px;
+}
+
+.footer-index div ul li {
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+
+}
+
+.footer-index div ul li a i {
+  font-size: 26px;
+}
+
+.footer-index div ul li:hover {
+  background-color: #fff3cd;
+}
+
+.footer-index div div small,
+.footer-blog div div small {
+  font-size: 12px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+  .blog-principal {
+    border-radius: 0 !important;
+    padding: 15px;
+  }
+
+  .footer-div-topo {
+    order: 1;
+  }
+
+  .footer-div-copy {
+    order: 2;
+  }
+
+  .order-1-topo {
+    order: 1;
+  }
+
+  .order-2-icon {
+    order: 2;
+    align-items: center;
+  }
+
+  .order-3-sheila {
+    order: 3;
+  }
+
+  .order-1-topo,
+  .order-2-icon,
+  .order-3-sheila,
+  .footer-div-topo,
+  .footer-div-copy {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .button-float {
+    bottom: 2rem;
+    right: 1rem;
+  }
+
+  ol,
+  ul {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .footer-index{
+    padding: 15px;
+   
+  }
+
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button-float {
+    bottom: 6.5rem;
+    right: 2rem;
+  }
+}
