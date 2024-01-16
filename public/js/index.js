@@ -79,7 +79,7 @@ function trocarLogo() {
     const imageLogo = document.createElement('img');
     imageLogo.src = conteudo.icone.urlImage;
     imageLogo.alt = conteudo.icone.textoAlt;
-    imageLogo.style = 'max-width: 50px; margin-left:20px; paddind:10px;'
+    imageLogo.style = 'max-width: 50px; margin-left:20px; paddind:10px;  filter: drop-shadow(4px 4px 4px #363636);'
 
     logoLink.href = conteudo.icone.linkLogo;
     logoLink.appendChild(imageLogo);
