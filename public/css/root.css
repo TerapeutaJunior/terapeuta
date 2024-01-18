@@ -79,27 +79,17 @@
 
 /* footer sheila */
 .sheila:hover {
-    color: white !important;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color:var(--body-bg-color-dourado)!important;
 }
 
-/* btn topo */
-.topo {
-    display: grid;
-    place-items: center;
-    cursor: pointer; 
-    animation: scroll-down 3s infinite;
-}
+.footer-row {
 
-.topo i {
-    font-size: 32px;
-    text-shadow: 1px 2px 10px #88888860, 1px 2px 5px #88888860;
+   background-color: var(--body-bg-color-dourado);
+} 
+.footer-arrow > a> i{
+       
+        animation: scroll-down 3s infinite;
 }
-
-.topo i:hover {
-    text-shadow: none;
-}
-
 @keyframes scroll-down {
     0% {
         transform: translateY(.6rem);
@@ -116,3 +106,5 @@
         opacity: 1;
     }
 }
+
+

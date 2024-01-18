@@ -7,9 +7,18 @@ footer div div small {
   bottom: 6rem;
   right: 2rem;
 }
-
+@media screen and (max-width: 576px) {
+ 
+  .button-float {
+    bottom: 4rem;
+    right: 0.5rem;
+  }
+}
 .btn-voltar {
   animation: scroll-arrow 3s infinite;
+}
+.btn-voltar:hover{
+  border:none;
 }
 
 .btn-voltar i {
