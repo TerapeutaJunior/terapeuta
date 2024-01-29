@@ -32,9 +32,9 @@ const posts = [
         idArtigo: 4
     },
     {
-        titulo: 'As 10 Dores Mais Comuns',
+        titulo: 'As 10 Dores Mais Comuns Entre Pessoas com Sofrimento Emocional',
         duracao: '6 min de leitura',
-        descricao: 'Descubra como superar dores emocionais com apoio especializado. Junte-se a nós na jornada rumo ao equilíbrio emocional.',
+        descricao: 'Leia o tópico e entenda mais.',
         imagemURL: './public/assets/blog-img/artigo5.jpg',
         altImagem: '',
         idArtigo: 5
@@ -45,7 +45,7 @@ const posts = [
 function montarTopicos() {
     const divTopicos = document.getElementById('topicos');
 
-    for(const post of posts) {
+    for (const post of posts) {
         const card = document.createElement('div');
         card.classList.add('col-md-6');
         card.innerHTML = `
