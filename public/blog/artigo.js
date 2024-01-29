@@ -498,6 +498,87 @@ const artigos = [
                 conteudo: 'Espero que essas informações sejam úteis para reconhecer os sinais e oferecer o apoio certo a quem sofre em silêncio. Lembre-se de que você não está sozinho e que existem recursos disponíveis para ajudá-lo a superar essas dores emocionais. Se você ou alguém que você conhece enfrenta desafios emocionais, não hesite em nos contatar. Oferecemos apoio para superar prisões emocionais, solidão, dificuldades emocionais, busca por validação, sensibilidade a críticas, problemas em relacionamentos, pensamentos negativos, procrastinação, e distúrbios do sono. Estamos aqui para ajudar em cada passo do caminho, proporcionando o suporte necessário para uma vida emocional mais equilibrada. Fique à vontade para tirar dúvidas sobre como aliviar cada uma dessas dores listadas aqui. Se você se identifica com alguma delas, entre em contato conosco. Será um grande prazer poder pegar na sua mão e mostrar para você que o caminho pode ser totalmente diferente. Você pode ter um caminho com mais brilho, mais determinação e um apoio emocional. Não perca tempo, entre em contato conosco para que possamos elaborar um cronograma e oferecer todo o suporte necessário'
             }
         }
+    },
+    {
+        id: 6,
+        video: {
+            disponivel: false,
+            url: ''
+        },
+        conteudo: {
+            tituloPrincipal: 'Sentimento de Solidão: Como Lidar com essa Dor Emocional',
+            resumo: 'Muitas vezes, lidar com problemas emocionais pode ser uma tarefa difícil e desafiadora. Uma das dores mais comuns enfrentadas por pessoas nessa situação é a sensação constante de solidão. Esse sentimento pode ser extremamente devastador, afetando a saúde mental e o bem-estar geral. No entanto, é importante lembrar que existem maneiras de lidar com essa dor e encontrar apoio emocional. Neste artigo, vamos explorar algumas estratégias que podem ajudar a aliviar a solidão e construir relacionamentos mais significativos.',
+            subtopicos: [
+                {
+                    titulo: 'Encontrando Apoio no Diálogo Terapêutico',
+                    texto: 'Uma das formas mais eficazes de lidar com a solidão é buscar apoio no diálogo terapêutico. Falar sobre seus sentimentos e emoções com um profissional treinado pode ser extremamente benéfico. Um terapeuta pode oferecer orientação, insights e estratégias para lidar com a solidão de forma saudável e construtiva. Ao compartilhar suas experiências, você pode descobrir que não está sozinho e que existem maneiras de superar esse sentimento.',
+                    lista: {
+                        disponivel: false,
+                        itens: []
+                    }
+                },
+                {
+                    titulo: 'Praticando Atividades em Grupo',
+                    texto: 'Outra estratégia eficaz para lidar com a solidão é praticar atividades em grupo com frequência. Participar de grupos com interesses semelhantes pode ajudar a conhecer pessoas novas e construir conexões significativas. Seja participando de um clube de leitura, um grupo de caminhada ou um curso de culinária, a interação social em um ambiente compartilhado pode reduzir a sensação de solidão e proporcionar uma sensação de pertencimento.',
+                    lista: {
+                        disponivel: false,
+                        itens: []
+                    }
+                },
+                {
+                    titulo: 'Fazendo uma Lista de Pessoas Queridas',
+                    texto: 'Uma maneira simples, mas eficaz, de lidar com a solidão é fazer uma lista de pessoas queridas próximas a você. Pense em amigos, familiares ou colegas que são importantes em sua vida e com quem você gostaria de ter mais contato. Entrar em contato com essas pessoas regularmente, seja pessoalmente, por telefone ou por mensagem, pode ajudar a cultivar relacionamentos significativos e combater a solidão.',
+                    lista: {
+                        disponivel: false,
+                        itens: []
+                    }
+                },
+                {
+                    titulo: 'Explorando Oportunidades em ONGs e Igrejas',
+                    texto: 'Caso haja interesse, buscar oportunidades de voluntariado em ONGs e igrejas pode ser uma excelente forma de encontrar apoio e combater a solidão. Além de ajudar os outros, você também poderá conhecer pessoas com interesses semelhantes e construir conexões significativas. O voluntariado não só proporciona um senso de propósito e significado, mas também oferece uma oportunidade de interagir com pessoas que compartilham dos mesmos valores e objetivos.',
+                    lista: {
+                        disponivel: false,
+                        itens: []
+                    }
+                },
+                {
+                    titulo: 'Mantendo Contato com Parentes Distantes',
+                    texto: 'Mesmo que estejam fisicamente distantes, manter contato frequente com parentes de longe pode ajudar a aliviar a sensação de solidão. Utilize mensagens, ligações telefônicas ou até mesmo videochamadas para manter o contato com aqueles que estão distantes. Compartilhar notícias, histórias e momentos importantes da vida pode ser uma maneira significativa de se conectar com os entes queridos e se sentir mais próximo, mesmo à distância.',
+                    lista: {
+                        disponivel: false,
+                        itens: []
+                    }
+                },
+                {
+                    titulo: 'Investindo em Relacionamentos de Confiança',
+                    texto: 'Ter relacionamentos de confiança é fundamental para superar a solidão. Procure cultivar amizades profundas e significativas com uma ou duas pessoas em quem você confia. Compartilhar seus sentimentos mais profundos e ter alguém com quem contar pode ser uma poderosa forma de aliviar a solidão. Reserve um tempo para criar e nutrir essas amizades, investindo energia e atenção em relacionamentos que são verdadeiramente significativos para você',
+                    lista: {
+                        disponivel: false,
+                        itens: []
+                    }
+                },
+                {
+                    titulo: 'Adotando um Animal de Estimação',
+                    texto: 'A adoção de um animal de estimação pode trazer uma grande dose de amor e companheirismo em sua vida. Os animais de estimação são conhecidos por sua capacidade de nos trazer alegria e conforto emocional. Cuidar de um animal e receber seu afeto pode ajudar a preencher o vazio emocional causado pela solidão. Considere adotar um animal de estimação e experimente os benefícios emocionais que essa relação pode trazer.',
+                    lista: {
+                        disponivel: false,
+                        itens: []
+                    }
+                },
+                {
+                    titulo: 'Cuidando da Autoestima',
+                    texto: 'A autoestima desempenha um papel fundamental na superação da solidão. Invista em atividades que elevem sua percepção positiva de si mesmo. Exercícios físicos, meditação, hobbies e práticas de autocuidado são algumas maneiras de cuidar da sua autoestima. Lembre-se de que você é uma pessoa valiosa e merece ser amado e apreciado. Ao priorizar sua própria felicidade e bem-estar, você estará construindo uma base sólida para lidar com a solidão e encontrar conexões significativas.',
+                    lista: {
+                        disponivel: false,
+                        itens: []
+                    }
+                }
+            ],
+            conclusao: {
+                disponivel: true,
+                conteudo: 'A solidão pode ser uma dor emocional avassaladora, mas não precisa ser uma prisão eterna. Ao buscar apoio, praticar atividades em grupo, manter contato com entes queridos, investir em relacionamentos de confiança e cuidar da autoestima, você estará dando os primeiros passos para superar essa dor. Lembre-se de que você não está sozinho e há sempre novas oportunidades de construir relacionamentos significativos. Não perca essa chance, embarque nessa jornada de autoconhecimento e transformação emocional. Você merece uma vida plena e feliz.Para mais informações, sinta- se à vontade para entrar em contato conosco.Estamos aqui para apoiá- lo nessa jornada.'
+            }
+        }
     }
 
 ];
