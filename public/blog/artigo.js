@@ -161,6 +161,344 @@ const artigos = [
             }
         }
     },
+    {
+        id: 5,
+        video: {
+            disponivel: false,
+            url: ''
+        },
+        conteudo: {
+            tituloPrincipal: 'As 10 Dores Mais Comuns Entre Pessoas com Sofrimento Emocional',
+            resumo: 'Olá! Hoje, vamos abordar um tema muito relevante para o nosso trabalho: as dores mais comuns entre pessoas com sofrimento emocional. Saber identificá-las é essencial para oferecer o apoio certo a quem mais precisa. Com base na minha experiência clínica, posso dizer que as 10 dores mais frequentes são:',
+            subtopicos: [
+
+                {
+                    titulo: 'Baixa Autoestima',
+                    texto: 'A baixa autoestima é um quadro onde a pessoa tem uma visão negativa e crítica de si mesma. Algumas características desse quadro incluem:',
+                    lista: {
+                        disponivel: true,
+                        itens: [
+                            {
+                                descricao: 'Sensação frequente de incapacidade e ciência de fracasso;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Tendência de menosprezar e diminuir seus próprios talentos;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Foco excessivo nos defeitos e imperfeições;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Baixa confiança na própria capacidade de tomar decisões;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Comparações contínuas e desfavoráveis com os outros;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Temor de julgamentos negativos ou críticas;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Sensibilidade exacerbada a rejeição;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Dificuldade em lidar com frustrações;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Pouca ou nenhuma valorização dos próprios sentimentos e necessidades.',
+                                detalhamento: '',
+                            },
+
+
+                        ]
+                    }
+                },
+                {
+                    titulo: 'Sensação Constante de Solidão',
+                    texto: 'A sensação constante de solidão é outra dor frequente entre pessoas com sofrimento emocional. Sentir-se solitário pode ser angustiante e prejudicial para o bem-estar emocional. É importante estar ciente dos sinais desse sentimento, como:',
+                    lista: {
+                        disponivel: true,
+                        itens: [
+                            {
+                                descricao: 'Isolamento social;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Sentimento de vazio e falta de conexão;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Dificuldade em formar e manter relacionamentos significativos;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Tristeza constante;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Pensamentos negativos sobre si mesmo e os outros',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Falta de interesse em atividades sociais e hobbies.',
+                                detalhamento: '',
+                            }
+
+                        ]
+                    }
+                },
+                {
+                    titulo: 'Dificuldade em Lidar com Sentimentos',
+                    texto: 'A dificuldade em lidar com sentimentos é uma dor comum entre pessoas que sofrem emocionalmente. Alguns sinais dessa dificuldade incluem:',
+                    lista: {
+                        disponivel: true,
+                        itens: [
+                            {
+                                descricao: 'Supressão de emoções;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Explosões emocionais frequentes;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Confusão em identificar e expressar sentimentos;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Medo de ser vulnerável;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Dificuldade em comunicar emoções aos outros;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Sentimento de sobrecarga emocional.',
+                                detalhamento: '',
+                            }
+                        ]
+                    }
+                },
+                {
+                    titulo: 'Compulsão em Busca de Validação',
+                    texto: 'A compulsão em busca de validação é uma dor comum entre pessoas com sofrimento emocional. Alguns comportamentos relacionados a essa compulsão são:',
+                    lista: {
+                        disponivel: true,
+                        itens: [
+                            {
+                                descricao: 'Dependência excessiva da opinião dos outros;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Necessidade constante de aprovação;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Busca por validação externa;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Dificuldade em confiar em si mesmo;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Medo de críticas e rejeição;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Autoestima baseada na opinião dos outros.',
+                                detalhamento: '',
+                            },
+                        ]
+                    }
+                },
+                {
+                    titulo: 'Sensibilidade Acerbada a Críticas e Julgamentos',
+                    texto: 'A sensibilidade exacerbada a críticas e julgamentos é uma dor frequente entre pessoas com sofrimento emocional. Alguns sinais dessa sensibilidade são:',
+                    lista: {
+                        disponivel: true,
+                        itens: [
+                            {
+                                descricao: 'Reações emocionais intensas diante de críticas;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Levar críticas para o lado pessoal;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Constante preocupação com o que os outros pensam;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Evitar situações em que possa ser julgado;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Medo de ser rejeitado;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Autoestima abalada por críticas.',
+                                detalhamento: '',
+                            }
+                        ]
+                    }
+                },
+                {
+                    titulo: 'Problemas Recorrentes em Relações Afetivas',
+                    texto: 'Problemas recorrentes em relações afetivas são uma dor comum entre pessoas que sofrem emocionalmente. Alguns sinais desses problemas são:',
+                    lista: {
+                        disponivel: true,
+                        itens: [
+                            {
+                                descricao: 'Dificuldade em estabelecer vínculos saudáveis;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Medo de intimidade emocional;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Padrões de relacionamentos tóxicos ou abusivos;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Insegurança e ciúmes excessivos;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Autoestima afetada por relacionamentos;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Constante busca por aprovação do parceiro.',
+                                detalhamento: '',
+                            }
+
+                        ]
+                    }
+                },
+                {
+                    titulo: 'Dificuldade em Controlar Pensamentos Negativos',
+                    texto: 'A dificuldade em controlar pensamentos negativos é uma dor comum entre pessoas que sofrem emocionalmente. Alguns sinais dessa dificuldade são:',
+                    lista: {
+                        disponivel: true,
+                        itens: [
+                            {
+                                descricao: 'Ruminação constante de pensamentos negativos;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Crenças negativas sobre si mesmo e o mundo;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Dificuldade em encontrar aspectos positivos nas situações;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Visão pessimista do futuro;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Autodepreciação constante;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Escassez de pensamentos positivos.',
+                                detalhamento: '',
+                            }
+                        ]
+                    }
+                },
+                {
+                    titulo: 'Procrastinação e Falta de Motivação',
+                    texto: 'A procrastinação e a falta de motivação são dores comuns entre pessoas com sofrimento emocional. Alguns sinais dessas dificuldades são:',
+                    lista: {
+                        disponivel: true,
+                        itens: [
+                            {
+                                descricao: 'Adiamento constante de tarefas;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Falta de energia e disposição;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Dificuldade em encontrar sentido e propósito nas atividades;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Desânimo e apatia constantes;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Sentimento de estagnação;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Dificuldade em estabelecer e alcançar metas.',
+                                detalhamento: '',
+                            }
+
+                        ]
+                    }
+                },
+                {
+                    titulo: 'Distúrbios do Sono e Episódios de Ansiedade, Estresse ou Tristeza',
+                    texto: 'Distúrbios do sono e episódios de ansiedade, estresse ou tristeza são dores comuns entre pessoas com sofrimento emocional. Alguns sinais desses problemas são:',
+                    lista: {
+                        disponivel: true,
+                        itens: [
+                            {
+                                descricao: 'Dificuldade em adormecer ou manter o sono;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Sonhos intranquilos ou pesadelos frequentes;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Sensação de cansaço constante',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Palpitações e dificuldade em relaxar;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Preocupação excessiva com o futuro;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Medo intenso ou sensação de perigo iminente;',
+                                detalhamento: '',
+                            },
+                            {
+                                descricao: 'Sentimento de tristeza profunda e desesperança.',
+                                detalhamento: '',
+                            }
+
+                        ]
+                    }
+                }
+
+            ],
+            conclusao: {
+                disponivel: true,
+                conteudo: 'Espero que essas informações sejam úteis para reconhecer os sinais e oferecer o apoio certo a quem sofre em silêncio. Lembre-se de que você não está sozinho e que existem recursos disponíveis para ajudá-lo a superar essas dores emocionais. Se você ou alguém que você conhece enfrenta desafios emocionais, não hesite em nos contatar. Oferecemos apoio para superar prisões emocionais, solidão, dificuldades emocionais, busca por validação, sensibilidade a críticas, problemas em relacionamentos, pensamentos negativos, procrastinação, e distúrbios do sono. Estamos aqui para ajudar em cada passo do caminho, proporcionando o suporte necessário para uma vida emocional mais equilibrada. Fique à vontade para tirar dúvidas sobre como aliviar cada uma dessas dores listadas aqui. Se você se identifica com alguma delas, entre em contato conosco. Será um grande prazer poder pegar na sua mão e mostrar para você que o caminho pode ser totalmente diferente. Você pode ter um caminho com mais brilho, mais determinação e um apoio emocional. Não perca tempo, entre em contato conosco para que possamos elaborar um cronograma e oferecer todo o suporte necessário'
+            }
+        }
+    }
 
 ];
 
@@ -200,17 +538,18 @@ function mostrarArtigo() {
         const divSubtopico = document.createElement('div');
         divSubtopico.classList.add('mb-1');
         divSubtopico.innerHTML = `
-            <h5>${subtopico.titulo}</h5>
+            <h3>${subtopico.titulo}</h3>
             <p>${subtopico.texto}</p>
+            
         `;
 
         if (subtopico.lista.disponivel) {
-            const ol = document.createElement('ol');
+            const ol = document.createElement('ul');
 
             for (const item of subtopico.lista.itens) {
                 const li = document.createElement('li');
 
-                const descricao = document.createElement('b');
+                const descricao = document.createElement('h6');
                 descricao.innerText = item.descricao;
 
                 const detalhamento = document.createElement('p');
@@ -222,6 +561,7 @@ function mostrarArtigo() {
             }
 
             divSubtopico.appendChild(ol);
+
         }
 
         divConteudoArtigo.appendChild(divSubtopico);

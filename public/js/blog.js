@@ -31,6 +31,14 @@ const posts = [
         altImagem: '',
         idArtigo: 4
     },
+    {
+        titulo: 'As 10 Dores Mais Comuns',
+        duracao: '6 min de leitura',
+        descricao: 'Descubra como superar dores emocionais com apoio especializado. Junte-se a nós na jornada rumo ao equilíbrio emocional.',
+        imagemURL: './public/assets/blog-img/artigo5.jpg',
+        altImagem: '',
+        idArtigo: 5
+    },
 ];
 
 
