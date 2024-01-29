@@ -137,7 +137,7 @@ const artigos = [
                         ]
                     }
                 },
-                
+
             ],
             conclusao: {
                 disponivel: true,
@@ -172,7 +172,7 @@ function mostrarArtigo() {
     const idArtigo = urlParams.get("i");
     const artigo = artigos.find((a) => a.id == idArtigo);
 
-    if(!artigo) {
+    if (!artigo) {
         window.location.href = '../../blog.html';
     }
 
@@ -185,10 +185,8 @@ function mostrarArtigo() {
     pResumo.innerText = artigo.conteudo.resumo;
     divConteudoArtigo.appendChild(pResumo);
 
-    if(artigo.video.disponivel) {
+    if (artigo.video.disponivel) {
         const iframe = document.createElement('iframe');
-        iframe.setAttribute('width', '560');
-        iframe.setAttribute('height', '315');
         iframe.setAttribute('src', `${artigo.video.url}`);
         iframe.setAttribute('title', 'YouTube video player');
         iframe.setAttribute('frameborder', '0');
@@ -198,7 +196,7 @@ function mostrarArtigo() {
         divConteudoArtigo.appendChild(iframe);
     }
 
-    for(const subtopico of artigo.conteudo.subtopicos) {
+    for (const subtopico of artigo.conteudo.subtopicos) {
         const divSubtopico = document.createElement('div');
         divSubtopico.classList.add('mb-1');
         divSubtopico.innerHTML = `
@@ -206,10 +204,10 @@ function mostrarArtigo() {
             <p>${subtopico.texto}</p>
         `;
 
-        if(subtopico.lista.disponivel) {
+        if (subtopico.lista.disponivel) {
             const ol = document.createElement('ol');
 
-            for(const item of subtopico.lista.itens) {
+            for (const item of subtopico.lista.itens) {
                 const li = document.createElement('li');
 
                 const descricao = document.createElement('b');
@@ -230,7 +228,7 @@ function mostrarArtigo() {
     }
 
 
-    if(artigo.conteudo.conclusao.disponivel) {
+    if (artigo.conteudo.conclusao.disponivel) {
         const conclusao = document.createElement('p');
         conclusao.innerHTML = artigo.conteudo.conclusao.conteudo;
         divConteudoArtigo.appendChild(conclusao);
