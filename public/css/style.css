@@ -30,12 +30,14 @@
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+
 .featurette-heading {
   letter-spacing: -.05rem;
   text-shadow: 1px 1px 1px black, 0 0 25px var(--body-bg-color-dourado), 0 0 5px #FFDE59;
   margin: 20px;
   color: #664d03;
 }
+
 .featurette-divider {
   width: 50%;
 }
@@ -242,16 +244,13 @@
 small {
   font-size: 12px;
 }
- .button-float {
-   bottom: 1.5rem;
-   right: 1.5rem;
- }
 
-
+.button-float {
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
 @media screen and (max-width: 576px) {
- 
- 
-    .footer-icon>div>a{
+  .footer-icon>div>a {
     font-size: 2rem;
   }
 
