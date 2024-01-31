@@ -242,15 +242,15 @@
 small {
   font-size: 12px;
 }
-
+ .button-float {
+   bottom: 1.5rem;
+   right: 1.5rem;
+ }
 
 
 @media screen and (max-width: 576px) {
  
-  .button-float {
-    bottom: 1.5rem;
-    right: 1.5rem;
-  }
+ 
     .footer-icon>div>a{
     font-size: 2rem;
   }
@@ -263,9 +263,9 @@ small {
   }
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .button-float {
     bottom: 4rem;
     right: 2rem;
   }
-}
+} */
