@@ -30,12 +30,14 @@
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+
 .featurette-heading {
   letter-spacing: -.05rem;
   text-shadow: 1px 1px 1px black, 0 0 25px var(--body-bg-color-dourado), 0 0 5px #FFDE59;
   margin: 20px;
   color: #664d03;
 }
+
 .featurette-divider {
   width: 50%;
 }
@@ -235,85 +237,21 @@
 }
 
 /* footer */
-.footer-index {
-  border-top: 1px solid rgba(0, 0, 0, 0.164);
-  box-shadow: 5px 10px 8px 10px #888888;
-  margin-top: 15px;
+.footer-icon>div>a {
+  font-size: 3rem;
 }
 
-.footer-index div ul li {
-  margin-top: 10px;
-  border-radius: 5px;
-  width: 50px;
-  height: 50px;
-
-}
-
-.footer-index div ul li a i {
-  font-size: 26px;
-}
-
-.footer-index div ul li:hover {
-  background-color: #fff3cd;
-}
-
-.footer-index div div small,
-.footer-blog div div small {
+small {
   font-size: 12px;
 }
 
-
-
+.button-float {
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
 @media screen and (max-width: 576px) {
-  .blog-principal {
-    border-radius: 0 !important;
-    padding: 15px;
-  }
-
-  .footer-div-topo {
-    order: 1;
-  }
-
-  .footer-div-copy {
-    order: 2;
-  }
-
-  .order-1-topo {
-    order: 1;
-  }
-
-  .order-2-icon {
-    order: 2;
-    align-items: center;
-  }
-
-  .order-3-sheila {
-    order: 3;
-  }
-
-  .order-1-topo,
-  .order-2-icon,
-  .order-3-sheila,
-  .footer-div-topo,
-  .footer-div-copy {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-  }
-
-  .button-float {
-    bottom: 2rem;
-    right: 1rem;
-  }
-
-  ol,
-  ul {
-    padding-left: 0;
-    margin-bottom: 0;
-  }
-  .footer-index{
-    padding: 15px;
-   
+  .footer-icon>div>a {
+    font-size: 2rem;
   }
 
 }
@@ -324,9 +262,9 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .button-float {
-    bottom: 6.5rem;
+    bottom: 4rem;
     right: 2rem;
   }
-}
+} */

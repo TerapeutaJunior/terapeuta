@@ -31,13 +31,29 @@ const posts = [
         altImagem: '',
         idArtigo: 4
     },
+    {
+        titulo: 'As 10 Dores Mais Comuns Entre Pessoas com Sofrimento Emocional',
+        duracao: '6 min de leitura',
+        descricao: 'Leia o tópico e entenda mais.',
+        imagemURL: './public/assets/blog-img/artigo5.jpg',
+        altImagem: '',
+        idArtigo: 5
+    },
+    {
+        titulo: 'Você tem sentimento de Solidão?',
+        duracao: '5 min de leitura',
+        descricao: 'Saiba como Lidar com essa Dor Emocional.',
+        imagemURL: './public/assets/blog-img/artigo6.jpg',
+        altImagem: '',
+        idArtigo: 6
+    }
 ];
 
 
 function montarTopicos() {
     const divTopicos = document.getElementById('topicos');
 
-    for(const post of posts) {
+    for (const post of posts) {
         const card = document.createElement('div');
         card.classList.add('col-md-6');
         card.innerHTML = `
